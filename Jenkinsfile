@@ -5,7 +5,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/<YOUR_GITHUB_USERNAME>/devsecops-assignment.git'
+                git 'https://github.com/Vishal240504/devsecops-assignment.git'
+
             }
         }
 
