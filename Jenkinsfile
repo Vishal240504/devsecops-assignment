@@ -3,13 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Vishal240504/devsecops-assignment.git'
-
-            }
-        }
-
         stage('Terraform Security Scan') {
             steps {
                 sh '''
@@ -30,3 +23,4 @@ pipeline {
         }
     }
 }
+
